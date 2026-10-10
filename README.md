@@ -72,3 +72,25 @@ Exemplo simples de uma máquina de estado com um único estado que retorna uma m
     }
   }
 }
+```
+
+## 💰 Precificação e Custos
+
+O **AWS Step Functions** é cobrado com base no tipo de fluxo escolhido:
+
+* **Standard Workflows**: Cobrado pelo número de transições de estado executadas. Ideal para processos de longa duração ou auditáveis.
+* **Express Workflows**: Cobrado pelo número de execuções, duração e consumo de memória. Ideal para cargas de trabalho de alto volume e rápida resposta.
+
+---
+
+## ⚙️ Níveis de Configuração
+
+* **Nível 1 - Permissões de Perfil (IAM)**: Criação da *role* e políticas necessárias para que o Step Functions possa invocar e orquestrar outros serviços (como AWS Lambda, Amazon SNS ou Amazon DynamoDB).
+* **Nível 2 - Disponibilidade e Governança**: Definição dos parâmetros de execução, logs de auditoria (com Amazon CloudWatch) e limites de tempo (*timeouts*).
+
+---
+
+## 🔗 Links Úteis e Documentação
+
+* [Página Oficial do AWS Step Functions](https://aws.amazon.com/step-functions/)
+* [Documentação Oficial da AWS Step Functions](https://docs.aws.amazon.com/step-functions/)
