@@ -14,8 +14,7 @@ Este repositório contém anotações, exemplos e um projeto prático focado na 
 6. [Criando um Hello World](#-criando-um-hello-world)
 7. [Precificação e Custos](#-precificação-e-custos)
 8. [Níveis de Configuração](#-níveis-de-configuração)
-9. [Projeto Prático: Assistente de Delivery](#-projeto-prático-assistente-de-delivery)
-10. [Links Úteis e Documentação](#-links-úteis-e-documentação)
+9. [Links Úteis e Documentação](#-links-úteis-e-documentação)
 
 ---
 
@@ -73,7 +72,6 @@ Exemplo simples de uma máquina de estado com um único estado que retorna uma m
   }
 }
 ```
-
 ## 💰 Precificação e Custos
 
 O **AWS Step Functions** é cobrado com base no tipo de fluxo escolhido:
